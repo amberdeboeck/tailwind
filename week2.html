@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Fonts Overview</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+  <style>
+    /* Video als achtergrond */
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body class="font-sans text-black"> <!-- achtergrond via video -->
+
+  <!-- Video achtergrond -->
+  <video class="video-bg" autoplay muted loop>
+    <source src="heart.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="max-w-4xl mx-auto py-10 px-4">
+    <!-- Header -->
+    <h1 class="text-2xl font-bold mb-8 bg-gray-200 text-black p-4 rounded">
+      Amber's Project Documentaire
+    </h1>
+    <!-- Navigation (unchanged except readable text) -->
+    <nav class="bg-gray-200 text-black p-4 rounded-lg shadow-lg mb-10">
+      <ul class="flex flex-wrap gap-2 text-sm">
+        <li><a class="block px-3 py-2 rounded bg-black text-white hover:bg-gray-700 transition" href="index.html">HOME</a></li>
+        <li><a class="block px-3 py-2 rounded bg-black text-white hover:bg-gray-700 transition" href="week1.html">Week 1</a></li>
+        <li><a class="block px-3 py-2 rounded bg-black text-white hover:bg-gray-700 transition" href="week2.html">Week 2</a></li>
+        <li><a class="block px-3 py-2 rounded bg-black text-white hover:bg-gray-700 transition" href="week3.html">Week 3</a></li>
+        <li><a class="block px-3 py-2 rounded bg-black text-white hover:bg-gray-700 transition" href="week4.html">Week 4</a></li>
+        <li><a class="block px-3 py-2 rounded bg-black text-white hover:bg-gray-700 transition" href="week5.html">Week 5</a></li>
+        <li><a class="block px-3 py-2 rounded bg-black text-white hover:bg-gray-700 transition" href="week6.html">Week 6</a></li>
+        <li><a class="block px-3 py-2 rounded bg-black text-white hover:bg-gray-700 transition" href="week7.html">Week 7</a></li>
+        <li><a class="block px-3 py-2 rounded bg-black text-white hover:bg-gray-700 transition" href="week8.html">Week 8</a></li>
+      </ul>
+    </nav>
+    <!-- Page Content -->
+    <section class="bg-white p-6 rounded-xl shadow-lg text-left z-10">  <!-- witte achtergrond voor leesbaarheid + tekst links -->
+      <h1 class="text-xl font-semibold mb-6 text-black">Amber's projectdocumentaire</h1>
+           <div class="two-columns">
+                <div class="column">
+                    <p>
+                        Na mijn instap in het project ben ik onmiddellijk gestart met het uitwerken van mijn prototype in Figma. Aangezien ik pas recent was aangesloten, had ik wat moeite om de opdracht volledig te begrijpen.                   </p>
+                </div>
+                <div class="column">
+                    <p>
+                        Ik vond figma zelf geen moeilijk programma om te gebruiken. Ik vond al snel mijn weg binnen de applicatie en ik kon vlot aan de slag. Ik maakte de basis elementen voor mijn prototype
+                    </p>
+                </div>
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
